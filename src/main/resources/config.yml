@@ -1,0 +1,30 @@
+influx:
+  url: 'http://example.com:8086'
+  username: 'influx'
+  password: 'password'
+  database: 'database'
+
+server-information:
+  network: 'Network Name'
+  server: 'Survival'
+
+stats:
+  players:
+    enabled: true
+  world-entities:
+    enabled: true
+    worlds: [] # Empty for all
+  world-chunks:
+    enabled: true
+    worlds: [] # Empty for all
+  staff-online:
+    enabled: true
+    permission: staff.permission
+  tps:
+    enabled: true
+  player-versions:
+    enabled: true
+  ping:
+    enabled: true
+  votes:
+    enabled: true

@@ -1,0 +1,4 @@
+name: ServerStats
+version: ${project.version}
+main: win.kaleb.serverstats.ServerStats
+softdepend: [ViaVersion, Votifier]
