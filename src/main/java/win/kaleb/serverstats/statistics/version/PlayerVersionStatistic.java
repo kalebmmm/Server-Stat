@@ -21,6 +21,8 @@ public class PlayerVersionStatistic implements StatisticsRecorder {
 	private static final Map<Integer, String> versions = new HashMap<>();
 
 	static {
+		versions.put(736, "1.16.1");
+		versions.put(735, "1.16");
 		versions.put(578, "1.15.2");
 		versions.put(575, "1.15.1");
 		versions.put(573, "1.15");
